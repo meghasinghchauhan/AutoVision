@@ -7,3 +7,4 @@ imutils
 matplotlib
 pillow
 setuptools
+tensorflow>=2.0.0
