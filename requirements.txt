@@ -6,3 +6,4 @@ pytesseract
 imutils
 matplotlib
 pillow
+setuptools
