@@ -1,8 +1,8 @@
 streamlit
-opencv-python
+numpy<2.0
+opencv-python-headless
 cvlib
-numpy
-imutils
 pytesseract
+imutils
 matplotlib
 pillow
