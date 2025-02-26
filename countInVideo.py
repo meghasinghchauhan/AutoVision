@@ -7,7 +7,7 @@ def count_vehicles_in_video(video_path):
     width_min, height_min, offset, pos_line = 80, 80, 6, 550
     detec, cars = [], 0
     cap = cv2.VideoCapture(video_path)
-    subtraction = cv2.bgsegm.createBackgroundSubtractorMOG()
+    subtraction = cv2.createBackgroundSubtractorMOG2()
 
     while cap.isOpened():
         ret, frame = cap.read()
